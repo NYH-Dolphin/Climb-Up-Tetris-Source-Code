@@ -18,6 +18,15 @@ namespace DefaultNamespace
             get => _iHp;
             set
             {
+                if (value > _iHp)
+                {
+                    if (value <= 3)
+                    {
+                        _iHp = value;
+                        UIGamePage.Instance.ChangeHP(_iHp);
+                    }
+                }
+
                 if (value >= 0 && value < _iHp)
                 {
                     _iHp = value;
@@ -25,7 +34,7 @@ namespace DefaultNamespace
                     CameraBehaviour.Instance.OnShakeCamera(0.1f, 0.3f, 0.3f);
                     AudioManager.Instance.PlayHurtAudio();
                 }
-                else
+                else if(value < 0)
                 {
                     GameManager.Instance.OnGameLose();
                 }

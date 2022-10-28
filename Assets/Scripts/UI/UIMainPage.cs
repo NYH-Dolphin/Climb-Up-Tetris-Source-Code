@@ -18,6 +18,9 @@ public class UIMainPage : MonoBehaviour
     {
         AddPages();
         OpenPage(homePage.name);
+        
+        // Make player prefab delete all the keys
+        PlayerPrefs.DeleteAll();
     }
 
     // Update is called once per frame
@@ -84,6 +87,7 @@ public class UIMainPage : MonoBehaviour
     public void OnClickLevelButton(GameObject button)
     {
         SceneManager.LoadScene("Level" + button.name);
+        GameManager.Level = int.Parse(button.name);
     }
 
     #endregion
