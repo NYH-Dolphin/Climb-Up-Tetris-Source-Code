@@ -15127,8 +15127,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1060246166}
+  selectedCommands:
+  - {fileID: 1060246172}
   variables:
   - {fileID: 1060246169}
   description: 
@@ -15228,22 +15230,32 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1060246172
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060246163}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 682f49c140ee47141af5008a97bfe89d, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
+  description: 
+  targetObject: {fileID: 1858930871}
+  targetComponentAssemblyName: UnityEngine.AudioSource, UnityEngine.AudioModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: AudioSource
+  targetMethod: Play
+  targetMethodText: 'Play (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!1 &1069551041
 GameObject:
   m_ObjectHideFlags: 0
