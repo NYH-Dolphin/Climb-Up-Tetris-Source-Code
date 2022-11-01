@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a93b004-fbf1-4f15-9774-bef990ac5df8" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Diamond.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Diamond.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/HP.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/HP.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Climb Up Tetris/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Climb Up Tetris/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/BombFuse/BombFuse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/BombFuse/BombFuse.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Magic/Enchant/MagicEnchantBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Magic/Enchant/MagicEnchantBlue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Magic/Enchant/MagicEnchantGreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Magic/Enchant/MagicEnchantGreen.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Magic/Enchant/MagicEnchantYellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Magic/Enchant/MagicEnchantYellow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIMainPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIMainPage.cs" afterDir="false" />
-    </list>
+    <list default="true" id="6a93b004-fbf1-4f15-9774-bef990ac5df8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +22,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/CS2022Autumn/DT2020 Game Design I/GameProject2 - Climb Up Tetris/Climb Up Tetris/Assets/Epic Toon FX/Prefabs/Combat/BombFuse/BombFuse.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/TimeCountDown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/CS2022Autumn/DT2020 Game Design I/GameProject2 - Climb Up Tetris/Climb Up Tetris/Assets/Epic Toon FX/Prefabs/Combat/BombFuse/BombFuse.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/WinFlag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -110,7 +99,7 @@
       <workItem from="1665972214887" duration="6000000" />
       <workItem from="1666010275269" duration="2254000" />
       <workItem from="1666144808276" duration="4625000" />
-      <workItem from="1666939015268" duration="2574000" />
+      <workItem from="1666939015268" duration="3192000" />
     </task>
     <task id="LOCAL-00001" summary="Add all">
       <created>1665229880867</created>
@@ -238,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666939801592</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add more item, add level">
+      <created>1666944364349</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666944364349</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +273,7 @@
     <MESSAGE value="." />
     <MESSAGE value="???" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="Add more item, add level" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more item, add level" />
   </component>
 </project>
