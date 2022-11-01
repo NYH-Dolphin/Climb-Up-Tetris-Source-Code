@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a93b004-fbf1-4f15-9774-bef990ac5df8" name="Changes" comment="" />
+    <list default="true" id="6a93b004-fbf1-4f15-9774-bef990ac5df8" name="Changes" comment="all">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Eye.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Eye.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Climb Up Tetris/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Climb Up Tetris/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Items/Obstacle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Items/Obstacle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Items/Pill.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Items/Pill.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level7.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +29,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/CS2022Autumn/DT2020 Game Design I/GameProject2 - Climb Up Tetris/Climb Up Tetris/Assets/Epic Toon FX/Prefabs/Combat/BombFuse/BombFuse.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/TimeCountDown.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/CS2022Autumn/DT2020 Game Design I/GameProject2 - Climb Up Tetris/Climb Up Tetris/Assets/Epic Toon FX/Prefabs/Combat/BombFuse/BombFuse.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/WinFlag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -100,6 +105,7 @@
       <workItem from="1666010275269" duration="2254000" />
       <workItem from="1666144808276" duration="4625000" />
       <workItem from="1666939015268" duration="3192000" />
+      <workItem from="1667275488126" duration="920000" />
     </task>
     <task id="LOCAL-00001" summary="Add all">
       <created>1665229880867</created>
@@ -234,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666944364349</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="all">
+      <created>1667275494770</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667275494770</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +287,7 @@
     <MESSAGE value="???" />
     <MESSAGE value="a" />
     <MESSAGE value="Add more item, add level" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more item, add level" />
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
 </project>
