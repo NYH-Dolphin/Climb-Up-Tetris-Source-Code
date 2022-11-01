@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a93b004-fbf1-4f15-9774-bef990ac5df8" name="Changes" comment="Slightly Modify">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIDiamonds.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIDiamonds.cs.meta" afterDir="false" />
+    <list default="true" id="6a93b004-fbf1-4f15-9774-bef990ac5df8" name="Changes" comment="add diamond count">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Climb Up Tetris/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Climb Up Tetris/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/Diamond.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Diamond.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/WinFlag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/WinFlag.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIMainPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIMainPage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIDiamonds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIDiamonds.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +105,7 @@
       <workItem from="1666144808276" duration="4625000" />
       <workItem from="1666939015268" duration="3192000" />
       <workItem from="1667275488126" duration="1531000" />
-      <workItem from="1667283320138" duration="4706000" />
+      <workItem from="1667283320138" duration="5664000" />
     </task>
     <task id="LOCAL-00001" summary="Add all">
       <created>1665229880867</created>
@@ -287,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667294166056</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add diamond count">
+      <created>1667295753400</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1667295753400</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,25 +334,7 @@
     <MESSAGE value="add" />
     <MESSAGE value="a" />
     <MESSAGE value="Slightly Modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slightly Modify" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/UIDiamonds.cs</url>
-          <line>13</line>
-          <properties documentPath="D:\CS2022Autumn\DT2020 Game Design I\GameProject2 - Climb Up Tetris\Climb Up Tetris\Assets\Scripts\UI\UIDiamonds.cs" initialLine="13" containingFunctionPresentation="method 'Start'">
-            <startOffsets>
-              <option value="284" />
-            </startOffsets>
-            <endOffsets>
-              <option value="365" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="add diamond count" />
+    <option name="LAST_COMMIT_MESSAGE" value="add diamond count" />
   </component>
 </project>

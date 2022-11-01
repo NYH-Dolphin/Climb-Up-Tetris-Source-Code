@@ -16,6 +16,7 @@ namespace Tetris
                     _level = value;
                 }
                 MaxLevel = Math.Max(_level, MaxLevel);
+                PlayerPrefs.SetInt("MaxLevel", MaxLevel);
             }
         } 
 
@@ -33,6 +34,12 @@ namespace Tetris
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            MaxLevel = PlayerPrefs.GetInt("MaxLevel", 1);
+            for (int i = 0; i < 9; i++)
+            {
+                Diamonds[i] = PlayerPrefs.GetInt($"Diamond{i}", 0);
+            }
+            
         }
 
         public void OnGameLose()

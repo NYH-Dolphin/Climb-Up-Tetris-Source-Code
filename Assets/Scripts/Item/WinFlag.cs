@@ -11,6 +11,7 @@ namespace DefaultNamespace
             {
                 GameManager.Diamonds[GameManager.Level] =
                     Mathf.Max(GameManager.Diamonds[GameManager.Level], GameManager.CurDiamonds);
+                PlayerPrefs.SetInt($"Diamond{GameManager.Level}", GameManager.Diamonds[GameManager.Level]);
                 GameManager.CurDiamonds = 0;
                 GameManager.Level += 1;
                 GameManager.Instance.OnGameWin();

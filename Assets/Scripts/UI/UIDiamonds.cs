@@ -11,7 +11,7 @@ namespace UI
         {
             for (int i = 0; i < 3; i++)
             {
-                Diamonds[i].SetActive(GameManager.Diamonds[int.Parse(gameObject.name)] >= i + 1);
+                Diamonds[i].transform.GetChild(0).gameObject.SetActive(GameManager.Diamonds[int.Parse(gameObject.name)] >= i + 1);
             }
         }
     }
