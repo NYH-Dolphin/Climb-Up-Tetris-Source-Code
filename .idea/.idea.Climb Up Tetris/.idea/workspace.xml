@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a93b004-fbf1-4f15-9774-bef990ac5df8" name="Changes" comment="" />
+    <list default="true" id="6a93b004-fbf1-4f15-9774-bef990ac5df8" name="Changes" comment="change">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Climb Up Tetris/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Climb Up Tetris/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Win.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Win.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/WinFlag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/WinFlag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIMainPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIMainPage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIWinPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIWinPage.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +107,7 @@
       <workItem from="1666144808276" duration="4625000" />
       <workItem from="1666939015268" duration="3192000" />
       <workItem from="1667275488126" duration="1531000" />
+      <workItem from="1667283320138" duration="2117000" />
     </task>
     <task id="LOCAL-00001" summary="Add all">
       <created>1665229880867</created>
@@ -247,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667282835358</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="change">
+      <created>1667283328109</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667283328109</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +305,7 @@
     <MESSAGE value="Add more item, add level" />
     <MESSAGE value="all" />
     <MESSAGE value="Finish Level Design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Level Design" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
 </project>

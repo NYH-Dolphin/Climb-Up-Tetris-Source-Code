@@ -13,9 +13,10 @@ namespace Tetris
 
     public class GameManager : MonoBehaviour
     {
-        public static int Level = 1;
-        public static bool ControlFlag;
-
+        public static int Level = 1; // current level
+        public static int MaxLevel = 1; // max level we get
+        public static bool ControlFlag; // switch the player role
+        
         public static bool BLose
         {
             get => _bLose;
@@ -33,22 +34,13 @@ namespace Tetris
         private static bool _bLose = false;
 
         public static GameManager Instance;
-        public State gameState = State.MAIN;
-
-
+        
         private void Awake()
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
-
-
-        public void OnStartGame()
-        {
-            gameState = State.GAME;
-        }
-
-
+        
         public void OnGameLose()
         {
             SceneManager.LoadScene("Lose");

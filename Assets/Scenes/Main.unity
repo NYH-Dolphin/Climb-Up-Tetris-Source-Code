@@ -375,6 +375,15 @@ MonoBehaviour:
   homePage: {fileID: 446852864}
   levelPage: {fileID: 95247626}
   settingPage: {fileID: 101626126}
+  levelButton:
+  - {fileID: 72737439}
+  - {fileID: 1823267099}
+  - {fileID: 901929497}
+  - {fileID: 747764858}
+  - {fileID: 1348154260}
+  - {fileID: 819618442}
+  - {fileID: 1727269511}
+  - {fileID: 177419520}
   musicToggle: {fileID: 1573969667}
   musicSlider: {fileID: 1185257834}
 --- !u!1 &73957320
@@ -1003,7 +1012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e890c6bf3850b543add071945df9f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameState: 1
 --- !u!1 &328017789
 GameObject:
   m_ObjectHideFlags: 0

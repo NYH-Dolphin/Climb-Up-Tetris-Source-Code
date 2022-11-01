@@ -9,6 +9,7 @@ public class UIMainPage : MonoBehaviour
     public GameObject homePage;
     public GameObject levelPage;
     public GameObject settingPage;
+    public List<GameObject> levelButton;
 
 
     private Dictionary<string, GameObject> _pages = new Dictionary<string, GameObject>();
@@ -69,8 +70,7 @@ public class UIMainPage : MonoBehaviour
     public void OnClickHomePageGoButton()
     {
         OpenPage(levelPage.name);
-        // SceneManager.LoadScene("Game");
-        // GameManager.Instance.OnStartGame();
+        OnOpenLevelPage();
     }
 
     #endregion
@@ -86,8 +86,28 @@ public class UIMainPage : MonoBehaviour
 
     public void OnClickLevelButton(GameObject button)
     {
-        SceneManager.LoadScene("Level" + button.name);
         GameManager.Level = int.Parse(button.name);
+        SceneManager.LoadScene("Level" + button.name);
+    }
+
+    public void OnOpenLevelPage()
+    {
+        for (int i = 0; i < 8; i++)
+        {
+            GameObject button = levelButton[i].gameObject;
+            if (int.Parse(button.name) > GameManager.Level)
+            {
+                button.GetComponent<Button>().enabled = false;
+                button.transform.GetChild(0).GetComponent<Text>().text = "??";
+                button.transform.GetChild(1).GetComponent<Text>().text = "??";
+            }
+            else
+            {
+                button.GetComponent<Button>().enabled = true;
+                button.transform.GetChild(0).GetComponent<Text>().text = button.name;
+                button.transform.GetChild(1).GetComponent<Text>().text = button.name;
+            }
+        }
     }
 
     #endregion
