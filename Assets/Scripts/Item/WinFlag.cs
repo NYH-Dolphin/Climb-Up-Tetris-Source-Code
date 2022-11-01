@@ -1,5 +1,4 @@
-﻿using System;
-using Tetris;
+﻿using Tetris;
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -10,8 +9,11 @@ namespace DefaultNamespace
         {
             if (other.gameObject.name == "Character")
             {
-                GameManager.Instance.OnGameWin();
+                GameManager.Diamonds[GameManager.Level] =
+                    Mathf.Max(GameManager.Diamonds[GameManager.Level], GameManager.CurDiamonds);
+                GameManager.CurDiamonds = 0;
                 GameManager.Level += 1;
+                GameManager.Instance.OnGameWin();
             }
         }
     }

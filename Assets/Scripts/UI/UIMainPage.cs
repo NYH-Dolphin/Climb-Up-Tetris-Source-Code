@@ -19,9 +19,6 @@ public class UIMainPage : MonoBehaviour
     {
         AddPages();
         OpenPage(homePage.name);
-        
-        // Make player prefab delete all the keys
-        PlayerPrefs.DeleteAll();
     }
 
     // Update is called once per frame

@@ -22,23 +22,11 @@ namespace Tetris
         private static int _level = 1;
         public static int MaxLevel = 1; // max level we get
         public static bool ControlFlag; // switch the player role
+        public static int[] Diamonds = new int[9];
+        public static int CurDiamonds;
+        
 
-        public static bool BLose
-        {
-            get => _bLose;
-            set
-            {
-                if (value)
-                {
-                    SceneManager.LoadScene("Lose");
-                }
-
-                _bLose = value;
-            }
-        }
-
-        private static bool _bLose = false;
-
+        
         public static GameManager Instance;
 
         private void Awake()

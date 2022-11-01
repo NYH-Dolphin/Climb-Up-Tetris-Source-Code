@@ -11,7 +11,7 @@ public class Diamond : MonoBehaviour
         {
             objCoin.SetActive(false);
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
-            PlayerPrefs.SetInt($"level{GameManager.Level}", PlayerPrefs.GetInt($"level{GameManager.Level}", 0) + 1);
+            GameManager.CurDiamonds += 1;
             effect.Play();
         }
     }

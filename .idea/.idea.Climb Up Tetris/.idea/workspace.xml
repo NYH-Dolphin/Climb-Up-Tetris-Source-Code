@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a93b004-fbf1-4f15-9774-bef990ac5df8" name="Changes" comment="a">
+    <list default="true" id="6a93b004-fbf1-4f15-9774-bef990ac5df8" name="Changes" comment="Slightly Modify">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIDiamonds.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIDiamonds.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Climb Up Tetris/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Climb Up Tetris/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetrisGame/TetrisBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetrisGame/TetrisBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIGamePage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIGamePage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/Diamond.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Diamond.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/WinFlag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/WinFlag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIMainPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIMainPage.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +69,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="27208">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="27208" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -105,7 +110,7 @@
       <workItem from="1666144808276" duration="4625000" />
       <workItem from="1666939015268" duration="3192000" />
       <workItem from="1667275488126" duration="1531000" />
-      <workItem from="1667283320138" duration="3112000" />
+      <workItem from="1667283320138" duration="4706000" />
     </task>
     <task id="LOCAL-00001" summary="Add all">
       <created>1665229880867</created>
@@ -275,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667292679097</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Slightly Modify">
+      <created>1667294166056</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1667294166056</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +331,26 @@
     <MESSAGE value="change" />
     <MESSAGE value="add" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="Slightly Modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slightly Modify" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/UIDiamonds.cs</url>
+          <line>13</line>
+          <properties documentPath="D:\CS2022Autumn\DT2020 Game Design I\GameProject2 - Climb Up Tetris\Climb Up Tetris\Assets\Scripts\UI\UIDiamonds.cs" initialLine="13" containingFunctionPresentation="method 'Start'">
+            <startOffsets>
+              <option value="284" />
+            </startOffsets>
+            <endOffsets>
+              <option value="365" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
