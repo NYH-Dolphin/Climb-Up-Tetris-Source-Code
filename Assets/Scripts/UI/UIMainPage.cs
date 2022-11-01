@@ -95,7 +95,7 @@ public class UIMainPage : MonoBehaviour
         for (int i = 0; i < 8; i++)
         {
             GameObject button = levelButton[i].gameObject;
-            if (int.Parse(button.name) > GameManager.Level)
+            if (int.Parse(button.name) > GameManager.MaxLevel)
             {
                 button.GetComponent<Button>().enabled = false;
                 button.transform.GetChild(0).GetComponent<Text>().text = "??";

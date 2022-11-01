@@ -12,7 +12,6 @@ namespace DefaultNamespace
             {
                 GameManager.Instance.OnGameWin();
                 GameManager.Level += 1;
-                GameManager.MaxLevel = Math.Max(GameManager.MaxLevel, GameManager.Level);
             }
         }
     }
