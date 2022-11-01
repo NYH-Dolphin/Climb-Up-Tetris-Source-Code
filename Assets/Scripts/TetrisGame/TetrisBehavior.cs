@@ -115,6 +115,7 @@ public class TetrisBehavior : MonoBehaviour
 
     public void OnStartUpdate()
     {
+        UIGamePage.Instance.OnStartGame();
         _bUpdate = true;
         CreateBrick();
     }

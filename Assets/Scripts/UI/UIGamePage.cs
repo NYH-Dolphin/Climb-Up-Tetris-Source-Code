@@ -15,9 +15,11 @@ namespace UI
         public GameObject returnPage;
 
         public List<GameObject> nextBricks;
+        public List<GameObject> nextBrickBoard;
+        
         public List<Toggle> listHP;
-
         public static UIGamePage Instance;
+       
 
 
         private Dictionary<string, GameObject> dicNextBricks = new Dictionary<string, GameObject>();
@@ -32,6 +34,18 @@ namespace UI
         {
             AddPages();
             OpenPage(gamePage.name);
+            foreach (GameObject obj in nextBrickBoard)
+            {
+                obj.SetActive(false);
+            }
+        }
+
+        public void OnStartGame()
+        {
+            foreach (GameObject obj in nextBrickBoard)
+            {
+                obj.SetActive(true);
+            }  
         }
 
         public void ChangeHP(int hp)

@@ -1018,7 +1018,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &73336464
 RectTransform:
@@ -1065,6 +1065,9 @@ MonoBehaviour:
   - {fileID: 68357087}
   - {fileID: 93315119}
   - {fileID: 1184866904}
+  nextBrickBoard:
+  - {fileID: 1811713899}
+  - {fileID: 853702044}
   listHP:
   - {fileID: 2026045336}
   - {fileID: 1783294322}
@@ -14569,7 +14572,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1060246166}
   selectedCommands:
-  - {fileID: 1060246172}
+  - {fileID: 1060246171}
   variables:
   - {fileID: 1060246169}
   description: 
