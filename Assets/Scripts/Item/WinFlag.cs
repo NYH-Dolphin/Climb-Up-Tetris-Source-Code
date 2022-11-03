@@ -13,6 +13,11 @@ namespace DefaultNamespace
                     Mathf.Max(GameManager.Diamonds[GameManager.Level], GameManager.CurDiamonds);
                 PlayerPrefs.SetInt($"Diamond{GameManager.Level}", GameManager.Diamonds[GameManager.Level]);
                 GameManager.CurDiamonds = 0;
+                if (GameManager.Level == 8)
+                {
+                    GameManager.Instance.OnGameFinal();
+                    return;
+                }
                 GameManager.Level += 1;
                 GameManager.Instance.OnGameWin();
             }

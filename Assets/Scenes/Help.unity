@@ -1106,6 +1106,7 @@ GameObject:
   - component: {fileID: 508703601}
   - component: {fileID: 508703600}
   - component: {fileID: 508703596}
+  - component: {fileID: 508703597}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1208,6 +1209,25 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &508703597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508703595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Main
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &508703600
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1249,6 +1269,7 @@ MonoBehaviour:
   eventHandler: {fileID: 508703600}
   commandList:
   - {fileID: 508703596}
+  - {fileID: 508703597}
   suppressAllAutoSelections: 0
 --- !u!114 &508703602
 MonoBehaviour:
@@ -1277,7 +1298,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 508703601}
   selectedCommands:
-  - {fileID: 508703596}
+  - {fileID: 508703597}
   variables: []
   description: 
   stepPause: 0
@@ -2336,7 +2357,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Help
+  m_Text: Climb Up Tetris
 --- !u!222 &953433646
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4505,7 +4526,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Help
+  m_Text: Climb Up Tetris
 --- !u!222 &1994948283
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -2110,7 +2110,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a24fa09a9b4c1674c95fe4b0d5446ad5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b50c14a457affb74cb1a48158079b954, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3056,7 +3056,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5132327f53a6ac943ae4efad50c64b36, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1d88107179d610a428c5d6df7a179856, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6959,7 +6959,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 50dd2ff370562fd4cb673eb8208d7d56, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bfeac77787c77a24b9e91c3128a1065b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7052,6 +7052,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1835357926}
     m_Modifications:
+    - target: {fileID: 1096022105367907160, guid: 8e6709d1711a8134f83f13e452ed0268, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1096022105367907164, guid: 8e6709d1711a8134f83f13e452ed0268, type: 3}
       propertyPath: m_Name
       value: Clock (1)
@@ -11971,7 +11975,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 92ca3aefa650da84f936ac5db38ad4be, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 39acd93571c2d1f4abfb97309328caf6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -12731,7 +12735,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0e6916f54e4ce80428242a6aacd2670e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ed0a7cef2abf7c84daf489887781381d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -15237,7 +15241,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e68dee458a0199e41a5ee743fa69e6ef, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6351b306a46dbea43840f3011050d5dd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -15445,39 +15449,39 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'GUM normal middle:Well done
+    stringVal: 'GUM normal middle:Well done{audio=S1}
 
-      GUM scared middle:Hey, I see the
-      badge is getting higher and higher
+      GUM scared middle:Hey,
+      I see the badge is getting higher and higher{audio=S2}
 
-      GUM scared middle:And there are more
-      and more obstacles
+      GUM scared middle:And
+      there are more and more obstacles{audio=S3}
 
-      GUM normal middle:It doesn''t look like it''s going
-      to be easy for us to get it
+      GUM normal middle:It doesn''t
+      look like it''s going to be easy for us to get it{audio=S4}
 
-      GUM normal middle:Well, it needs careful
-      cooperation
+      GUM normal
+      middle:Well, it needs careful cooperation{audio=S5}
 
-      GUM normal left:This time, the reward is...
+      GUM normal left:This
+      time, the reward is...{audio=S6}
 
-      Clock
-      Clock right:...
-
-      GUM excited left:The FREEZE CLOCK!
+      Clock Clock right:...
 
       GUM excited
-      left:It makes the brick fall slower
+      left:The FREEZE CLOCK!{audio=S7}
 
-      GUM normal left:So you have more
-      time to think
+      GUM excited left:It makes the brick
+      fall slower{audio=S8}
 
-      GUM normal left:Let''s go
+      GUM normal left:So you have more time to think{audio=S9}
+
+      GUM
+      normal left:Let''s go{audio=S10}
 
       hide GUM:
 
-      hide
-      Clock:
+      hide Clock:
 
 '
   clearPrevious:
@@ -15523,7 +15527,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66
     y: 72.0989
-    width: 78.13187
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15550,11 +15554,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 22.054913, y: 9.3955965}
+  scrollPos: {x: 114.09718, y: 95.699524}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 257.8
-  zoom: 0.9100001
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -15564,7 +15568,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1060246166}
   selectedCommands:
-  - {fileID: 1060246172}
+  - {fileID: 1060246164}
   variables:
   - {fileID: 1060246169}
   description: 
@@ -15664,7 +15668,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1060246172
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17269,7 +17273,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 421fffd9ee84b3a4fad73aadfdd5cff2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 81176576828c1bc4abfc75fc4abbc364, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -19619,7 +19623,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a286e82f05d3a9e45a851611b9e21806, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 09ad5cc6d68e41140b8e22d94f5acb4d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -20200,7 +20204,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379720529}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -28101,7 +28105,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 72263dc158419a54191ad3238eb61c1c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0b4c6caf0f21c2d4b8e431c1863cea0c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -30163,7 +30167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9053036743791155070, guid: 122d543ee0c687744b002b4afb054786, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 2.75
       objectReference: {fileID: 0}
     - target: {fileID: 9053036743791155070, guid: 122d543ee0c687744b002b4afb054786, type: 3}
       propertyPath: m_LocalPosition.z
@@ -31029,7 +31033,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 95d36aeac704ec7498e9dcb8f8ed40f0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6406137eb18deaf45b27e1ce33a432f7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -31787,6 +31791,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1835357926}
     m_Modifications:
+    - target: {fileID: 1096022105367907160, guid: 8e6709d1711a8134f83f13e452ed0268, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1096022105367907164, guid: 8e6709d1711a8134f83f13e452ed0268, type: 3}
       propertyPath: m_Name
       value: Clock

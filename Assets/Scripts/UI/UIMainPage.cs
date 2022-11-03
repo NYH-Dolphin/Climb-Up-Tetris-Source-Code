@@ -130,6 +130,10 @@ public class UIMainPage : MonoBehaviour
         OpenPage(homePage.name);
     }
 
+    public void OnClickSettingPageCleanCacheButton()
+    {
+        PlayerPrefs.DeleteAll();
+    }
     #endregion
 
 }
