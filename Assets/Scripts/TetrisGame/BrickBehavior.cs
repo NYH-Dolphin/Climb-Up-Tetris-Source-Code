@@ -297,7 +297,8 @@ namespace Tetris
                         {
                             if (row + curRow >= TetrisBehavior.Boardwidth ||
                                 col + curCol >= TetrisBehavior.Boardheight ||
-                                TetrisBehavior.Instance.board[row + curRow, col + curCol] == 1)
+                                TetrisBehavior.Instance.board[row + curRow, col + curCol] == 1 ||
+                                row + curRow < 0 || col + curCol < 0)
                             {
                                 return true;
                             }
