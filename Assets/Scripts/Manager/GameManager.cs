@@ -31,6 +31,10 @@ namespace Tetris
 
         private void Awake()
         {
+            if (Instance != null)
+            {
+                Destroy(Instance.gameObject);
+            }
             Instance = this;
             DontDestroyOnLoad(gameObject);
             if (PlayerPrefs.GetInt("Initial", 0) == 0)
@@ -38,7 +42,6 @@ namespace Tetris
                 SceneManager.LoadScene("Help");
                 PlayerPrefs.SetInt("Initial", 1);
             }
-            MaxLevel = PlayerPrefs.GetInt("MaxLevel", 1);
             for (int i = 0; i < 9; i++)
             {
                 Diamonds[i] = PlayerPrefs.GetInt($"Diamond{i}", 0);

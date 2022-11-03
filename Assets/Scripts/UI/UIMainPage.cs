@@ -6,11 +6,12 @@ using UnityEngine.UI;
 
 public class UIMainPage : MonoBehaviour
 {
+    
     public GameObject homePage;
     public GameObject levelPage;
     public GameObject settingPage;
     public List<GameObject> levelButton;
-
+    public AudioSource backgroundMusic;
 
     private Dictionary<string, GameObject> _pages = new Dictionary<string, GameObject>();
 
@@ -105,6 +106,7 @@ public class UIMainPage : MonoBehaviour
                 button.transform.GetChild(1).GetComponent<Text>().text = button.name;
             }
         }
+
     }
 
     #endregion
@@ -132,7 +134,11 @@ public class UIMainPage : MonoBehaviour
 
     public void OnClickSettingPageCleanCacheButton()
     {
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.SetInt("MaxLevel", 1);
+        for (int i = 0; i < 9; i++)
+        {
+            PlayerPrefs.SetInt($"Diamond{i}", 0);
+        }
     }
     #endregion
 
